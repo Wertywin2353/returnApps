@@ -1,0 +1,40 @@
+body {
+    background-color: #303030;
+    font-family: 'Segoe UI';
+    user-select: text;
+    color: aliceblue;
+}
+
+#App {
+    background-color: #202020;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.dib {
+    position: absolute;
+    right: 20px;
+    translate: -0px 19px;
+    width: 40px;
+}
+
+header {
+    background-color: rgb(30, 30, 30, 0.5);
+    backdrop-filter: blur(5px);
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    border-radius: 10px;
+    z-index: 1;
+    padding: 7px 7px 3px 7px;
+}
+
+.headButton {
+    float: right;
+}

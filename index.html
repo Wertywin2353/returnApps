@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReturnApps | Список приложений</title>
+</head>
+<body>
+    <header>
+        <img src="logo.png" width="150px">
+
+        <div class="headButton" onclick="clicked(1)">
+            <img src="getDocumentation.png" style="filter: invert();" width="30px">
+        </div>
+        <div class="headButton" onclick="clicked(0)">
+            <img src="upload.png" style="filter: invert();" width="30px">
+        </div>
+    </header>
+    <br><br>
+    <h1>Лист приложений для переноса: </h1>
+    <span style="font-size: 20px; position: relative; bottom: 20px;">Всего найденых приложений: <b id="total"></b></span>
+
+    <div id="AppList">
+    </div>
+    <script src="LazyLib-L.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
